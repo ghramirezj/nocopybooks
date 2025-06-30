@@ -1,0 +1,30 @@
+{
+  "name": "nocopybooks",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "startWatch": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "db-local": "3.1.0",
+    "dotenv": "16.6.0",
+    "ejs": "3.1.10",
+    "express": "5.1.0",
+    "morgan": "1.10.0",
+    "zod": "3.25.67"
+  },
+  "devDependencies": {
+    "semistandard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "semistandard"
+    ]
+  }
+}

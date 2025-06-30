@@ -1,0 +1,38 @@
+```
+└── 📁nocopybooks
+    └── 📁db
+        └── 📁local
+            └── 📁db-local
+                ├── BookSchemaDbLocal.json
+            └── 📁schema
+                ├── bookSchemaDbLocal.js
+    └── 📁public
+        └── 📁assets
+            ├── book.jpg
+        └── 📁css
+            ├── index.css
+        └── 📁js
+            ├── fetch.js
+    └── 📁src
+        └── 📁config
+            ├── environment.js
+        └── 📁controllers
+            ├── booksController.js
+        └── 📁middlewares
+        └── 📁models
+            ├── bookRepository.js
+        └── 📁routes
+            ├── routes.js
+        └── 📁schema
+            ├── bookSchemaZod.js
+        └── 📁utils
+            ├── getDirName.js
+        └── 📁views
+            ├── index.ejs
+    ├── .env
+    ├── .env.example
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    └── server.js
+```
